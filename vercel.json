@@ -1,0 +1,6 @@
+{
+  "rewrites": [
+    { "source": "/demo", "destination": "https://demo.odai.app" },
+    { "source": "/demo/:path*", "destination": "https://demo.odai.app/:path*" }
+  ]
+}
